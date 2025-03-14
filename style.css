@@ -20,6 +20,8 @@
     display: block;
     padding-inline: 1rem;
     display: flex;
+    margin-bottom: 1.5rem;
+    margin-inline: auto;
 
     ::marker {
         content: "";
