@@ -1,0 +1,32 @@
+:root {
+    /* colors */
+    --ink-blue: #092582;
+    --paper-white: #fbfaf6;
+
+    /* fonts */
+    font-family: "Atkinson Hyperlegible Next", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+
+    /* default styles */
+    background: var(--paper-white);
+    color: var(--ink-blue);
+}
+
+.session {
+    border: 2px solid var(--ink-blue);
+    width: 25rem;
+    display: block;
+    padding-inline: 1rem;
+    display: flex;
+
+    ::marker {
+        content: "";
+    }
+
+    .session__heading {
+        text-transform: capitalize;
+        letter-spacing: 0.15rem;
+    }
+}
