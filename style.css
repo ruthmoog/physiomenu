@@ -25,8 +25,26 @@
         content: "";
     }
 
+    &:hover {
+        outline: 1rem solid antiquewhite;
+
+        .session__heading {
+            text-decoration: underline;
+        }
+    }
+
     .session__heading {
         text-transform: capitalize;
         letter-spacing: 0.15rem;
+    }
+
+    .exercise {
+        border: 1px solid var(--ink-blue);
+        padding: 1rem;
+        margin-bottom: 1rem;
+
+        .exercise__picture {
+            width: 100%;
+        }
     }
 }
